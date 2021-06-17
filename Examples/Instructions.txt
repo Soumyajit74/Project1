@@ -1,0 +1,52 @@
+Regular Tasks:
+download dataset
+- read how to build the keras classifier
+- read about cnn classifier
+- read about keras and tensorflow
+- Explore Keras website
+- Study Model architechture.
+- Read about layers convolution, maxpooling, dropout
+
+
+
+Get dataset
+- rt download Mnist dataset
+- rt add it to project
+- ct split mnist into training dataset and test dataset
+- rt dimensions of the dataset and 3d RGB channels
+
+Prepare the data
+- ct set input shape as 28 by 28 pixels and RGB blackn white scaler as 1
+- ct split data between x_train, y_train, x_test, y_test
+- ct scale images to the [0,1] range
+- rt Why convert x_train x_test to float 32?
+- rt why divide by 255?
+- ct images should have shape (28, 28, 1)
+- ct/rt convert class vectors to binary classes
+
+Build the model
+
+- ct build the keras classifier model
+- ct create a pipeline to pass images into the model
+- ct build conv2D layer, Maxpooling2D layer, flatten, dropout 
+- rt read kernel size, pool size, filters, strides, padding, num classes
+- ct build dense layer
+
+
+
+Train model
+
+- ct define batch sizes
+- ct set epochs
+- ct compile model
+- ct fit model
+
+Evaluate model
+- ct find accuracy and loss
+
+
+
+QUESTIONS
+- why do we divide dataset by 255 to normalize?
+- Not clear about the process of normalzing pixel values?(need some guidance)
+- How to choose the parameters that I need to set for the layers?

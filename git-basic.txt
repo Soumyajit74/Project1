@@ -1,0 +1,15 @@
+To initialize a git project: `git init`
+
+git status
+
+git add <filepath1>
+git add <filepath2>
+
+
+Research how to add (new/existing) project to Github
+Create a new github project (empty project, don't choose option with README.md)
+Link this remote Github project to current local git project
+
+git push origin master
+
+Share Github project with me
