@@ -1,0 +1,6 @@
+
+
+Git
+- Reset commit
+    git reset --hard <commit_id>
+    git reset --soft <commit_id>

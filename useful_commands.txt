@@ -1,0 +1,17 @@
+
+Conda / Python
+- Activate environment
+    conda activate <env_name>
+    conda activate base
+- Deactivate
+- List environments
+    conda info --env
+- New environment 
+    conda create -n <environment_name> python=<python_version>
+    conda create -n my_env python=3.6
+
+Git
+- See project files status
+    git status
+
+
